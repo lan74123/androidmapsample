@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:map="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/map"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  class="com.google.android.gms.maps.MapFragment"
+  map:cameraBearing="45"
+  map:cameraTargetLat="23.9740930"
+  map:cameraTargetLng="120.9799030"
+  map:cameraTilt="0"
+  map:cameraZoom="16" 
+  map:mapType="normal"
+  map:uiCompass="true"
+  map:uiRotateGestures="true"
+  map:uiScrollGestures="true"
+  map:uiTiltGestures="true"
+  map:uiZoomGestures="true"
+  map:uiZoomControls="true"/>
+
+  <!-- 註解無法在fragment裡寫，改寫在這裡...
+  map:cameraZoom 縮放等級
+  map:cameraBearing="45" 調整上方是北邊還是東邊 etc:90度就是上方是東邊
+  map:cameraTargetLat
+  map:cameraTargetLng 
+  這兩項是經緯度，可以在mygeoposition.com查詢
+  map:cameraTilt 視角傾斜 0度為正上方
+  map:cameraZoom 縮放程度
+  map:mapType 地圖類型 includes none, normal, hybrid, satellite,terrain
+  map:uiCompass 左上方的指南針顯示否
+  map:uiRotateGestures
+  map:uiScrollGestures
+  map:uiTiltGestures
+  map:uiZoomGestures
+  旋轉與移動的手勢
+  map:uiZoomControls 縮放按鈕
+  
+  -->
